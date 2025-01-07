@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(assets/images/favicon-32x32.png);
+}
+
+#blackground {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    background: rgb(11, 17, 10);
+    justify-content: center;
+    align-items: center;
+}
+
+#wildcard {
+    display: flex;
+    width: 20vw;
+    height: 60vh;
+    background: rgb(38, 36, 42);
+    border-radius: 30px;
+    justify-content: center;
+}
+
+#face {
+    width: 7vw;
+    height: 14vh;
+    border-radius: 50%;
+    position: fixed;
+    top: 21.5vh;
+}
+
+#name {
+    color: white;
+    font-weight: bold;
+    font-size: clamp(1rem, 2vw, 3rem);
+    position: fixed;
+    top: 33vh;
+}
+
+#localisation {
+    color: greenyellow;
+    font-size: clamp(1rem, 1vw, 2rem);
+    position: fixed;
+    top: 39vh;
+}
+
+#work {
+    color: white;
+    font-size: clamp(0.75rem, 1vw, 1rem);
+    position: fixed;
+    top: 43vh;
+}
+
+.button {
+    display: flex;
+    width: 15vw;
+    height: 5vh; 
+    position: fixed;
+    /* top: 49vh; uniquement sur l'id */
+    background: rgb(55, 53, 53);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: clamp(0.5rem, 1vw, 1rem);
+}
+
+#github {
+    top: 49vh;
+    cursor: pointer;
+}
+
+#mentor {
+    top: 55vh;
+    cursor: pointer;
+}
+
+#linkedin {
+    top: 61vh;
+    cursor: pointer;
+}
+
+#twitter {
+    top: 67vh;
+    cursor: pointer;
+}
+
+#insta {
+    top: 73vh;
+    cursor: pointer;
+}
+
+.button:hover {
+    color:black;
+    background-color: greenyellow;
+    width: 15.5vw;
+    height: 5.5vh;
+    box-shadow: 10px 10px 20px rgba(247, 245, 245, 0.5);
+}
